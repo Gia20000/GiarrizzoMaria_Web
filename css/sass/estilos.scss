@@ -1,0 +1,115 @@
+@import "base/fuentes";
+@import "base/colores";
+@import "base/mixins";
+
+html {
+    font-size: 16px;
+}
+h1 {@import "base/fuentes";
+@import "base/colores";
+@import "base/mixins";
+
+html {
+    font-size: 16px;
+}
+h1 {
+    
+    text-transform: uppercase;
+    @include tipografiaBase($tempus, 1rem, normal, $negro, null, null,left, 2px);
+    margin-left: 30px;
+    
+  }
+h2 {
+      
+ margin-left: 30px;
+ @include tipografiaBase($mistral, 1rem, normal, $negro, null, null,justify, 3px);
+     
+}
+article, aside{
+background-color: rgb(162, 230, 226);
+
+}
+li{
+ @include tipografiaBase($tempus, 1rem, normal, $blanco, null, null,justify, 2px);
+
+}
+nav{
+    background-color: rgb(56, 180, 174);}
+footer{
+background-color: rgb(113, 158, 179);
+flex:0;
+margin:1px;}
+header{
+    flex:2;
+    background-color: rgb(136, 203, 241);
+    height: 138px;
+    margin:1px;}
+
+
+.ficha {
+    background-color: greenyellow;
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.ficha__imagen {
+    width: 50%;
+    float: left;
+}
+
+.ficha__imagen__responsive {
+    width: 100%;
+    height: auto;
+}
+
+.ficha__texto {
+    width: 50%;
+    float: left;
+    color: $negro;
+}
+
+.boton {
+    background-color: hotpink;
+    color: $blanco;
+    border: none;
+}
+
+.boton--red {
+    background-color: $rojo;
+}
+    
+    text-transform: uppercase;
+    @include tipografiaBase($tempus, 1rem, normal, $negro, null, null,left, 2px);
+    margin-left: 30px;
+    
+  }
+h2 {
+      
+ margin-left: 30px;
+ @include tipografiaBase($mistral, 1rem, normal, $negro, null, null,justify, 3px);
+     
+}
+article, aside{
+background-color: rgb(162, 230, 226);
+
+}
+li{
+ @include tipografiaBase($tempus, 1rem, normal, $blanco, null, null,justify, 2px);
+
+}
+nav{
+    background-color: rgb(56, 180, 174);}
+footer{
+background-color: rgb(113, 158, 179);
+flex:0;
+margin:1px;}
+header{
+    flex:2;
+    background-color: rgb(136, 203, 241);
+    height: 138px;
+    margin:1px;}
+
+
+
+

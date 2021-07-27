@@ -1,0 +1,53 @@
+html {
+  font-size: 16px;
+}
+
+
+
+@media (min-width: 700px) and (orientation: portrait) {
+  body {
+    background-color: #000;
+  }
+}
+
+body h1 {
+  font-family: "Brygada 1918", serif;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+
+.ficha {
+  background-color: greenyellow;
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.ficha__imagen {
+  width: 50%;
+  float: left;
+}
+
+.ficha__imagen__responsive {
+  width: 100%;
+  height: auto;
+}
+
+.ficha__texto {
+  width: 50%;
+  float: left;
+  color: #000;
+}
+
+.boton {
+  background-color: hotpink;
+  color: white;
+  border: none;
+}
+
+.boton--red {
+  background-color: red;
+}
+/*# sourceMappingURL=estilos.css.map */
